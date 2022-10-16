@@ -4,6 +4,11 @@ namespace Algorithm
 {
   class Program
   {
+    // Binary search for an integer within an integer array.
+    // Assumption: integer array is sorted ascendingly.
+    // param: inputArray: int[]
+    // param: item: int
+    // return: boolean
     static bool BinarySearch(int[] inputArray, int item)
     {
       int min = 0;
